@@ -1,0 +1,39 @@
+h3{
+    text-shadow: 0 0 10px rgb(143, 34, 34);
+    font: size 3em;
+    color: rgb(155, 55, 55);
+}  
+
+
+
+div.out2
+{
+    width: 650px;
+    height: 370px;
+    margin: 70px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.out2 li
+{
+    margin: 5px 0;
+    padding: 15px;
+    width: 90%;
+    border: 1px solid #ccc;
+    background-color: #87CEFA;
+}
+.out2 a
+{
+	font:bold 1.4em arial, helvetica;
+}
+/*@font-face {
+    font-family: "seasideresort";
+    src: url('SeasideResortNF.ttf');
+}
+
+h3{
+    font-family:seasideresort;
+    text-align: center;
+}*/
+
+

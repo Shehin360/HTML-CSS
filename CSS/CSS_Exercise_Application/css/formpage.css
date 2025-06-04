@@ -42,7 +42,7 @@ h1 {
   margin: 0 0 20px 0;
   font-weight: 300;
   font-size: 28px;
-  color: #da2828;
+
 }
 
 input[type="text"],
@@ -139,3 +139,4 @@ input[type="text"]:focus{
 input[type="password"]:focus{
   border-bottom: 1px solid #d45637;
 }
+

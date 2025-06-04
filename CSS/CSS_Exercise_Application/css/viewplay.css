@@ -70,3 +70,21 @@ audio {
     color: white;
     font-size: 14px;
 }
+
+h1{
+  color: rgb(241, 8, 8);
+  font-size: 30px;
+  line-height: 1px;
+}
+
+h3{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: px;
+}
+
+h5{
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  line-height: 0.15px;
+}

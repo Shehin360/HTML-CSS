@@ -17,3 +17,11 @@ h2,
 h3 {
   color: maroon;
 }
+
+#sid {
+  color: red !important;
+}
+p {
+  color: green;
+}
+
