@@ -1,0 +1,39 @@
+a {
+    display: block;
+    margin: 10px 0;
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+
+/* Common styles for all icons */
+a::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Icon for HTTP links */
+a[href^="http://"]::before {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/25/25694.png');
+}
+
+/* Icon for HTTPS links */
+a[href^="https://"]::before {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/3064/3064197.png');
+}
+
+/* Icon for mailto links */
+a[href^="mailto:"]::before {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/732/732200.png');
+}
+
+/* Icon for FTP links */
+a[href^="ftp://"]::before {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/646/646094.png');
+}

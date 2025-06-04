@@ -1,0 +1,19 @@
+body {
+  background-color: lightgrey;
+}
+.red {
+  color: red;
+}
+#pid {
+  background-color: yellow;
+  color: green;
+}
+div p {
+  background-color: yellow;
+  color: green;
+}
+h1,
+h2,
+h3 {
+  color: maroon;
+}

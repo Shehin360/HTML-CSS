@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Input State Example</title>
+  <style>
+    input[type="text"]:enabled {
+      background-color: lightblue;
+    }
+
+    input[type="text"]:required {
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Input Styling Example</h2>
+
+  <form>
+    <label>Enabled & Required (Red):</label><br>
+    <input type="text" required><br><br>
+
+    <label>Enabled & Optional (Light Blue):</label><br>
+    <input type="text"><br><br>
+
+    <label>Disabled Input (No Style):</label><br>
+    <input type="text" disabled>
+  </form>
+
+</body>
+</html>
