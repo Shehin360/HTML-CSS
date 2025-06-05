@@ -25,6 +25,11 @@ ul {
   background: #FFF;
   height: 60px;
   color: #999;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #db1010;
+  border-top: 1px solid #db1010;
 }
 
 li {
@@ -47,8 +52,12 @@ th {
 }
 
 td, th {
-  height: 53px
+  height: 53px;
+   padding: 12px 16px;
+  border: 3px solid #ffffff;
+  text-align: center;
 }
+
 
 td+td, th+th {
   text-align:center;
@@ -85,3 +94,9 @@ td.default {
   font-size: 18px;
   color: red;
 }
+li.free,
+li.standard,
+li.premium {
+  border-top: 2px solid #db1010;
+}
+

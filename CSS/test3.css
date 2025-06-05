@@ -1,0 +1,30 @@
+.out2
+{
+    width: 650px;
+    height: 370px;
+    margin: 70px auto;
+    padding: 20px;
+    border: 1px solid #aaa6a6;
+    box-shadow: 10px 5px 5px #b6b6b6;
+}
+.out2 li
+{
+    margin: 5px 0;
+    padding: 20px;
+    width: 90%;
+    border: 3px solid #cccccc;
+    background-color: #87CEFA;
+}
+.out2 a
+{
+	font:bold 1.4em arial, helvetica;
+}
+.body{
+    border-radius: 10px;
+}
+.out2{
+    border-radius: 1%;
+}
+li{
+    border-radius: 5px;
+}

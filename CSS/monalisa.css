@@ -1,0 +1,8 @@
+img
+{
+    align-items: center;
+	margin-left:200px;
+	margin-top:50px;
+	border: 50px solid transparent;
+	border-image:url(BorderImage/frame1.jpg) 13% 17% 14% 15% ;
+}

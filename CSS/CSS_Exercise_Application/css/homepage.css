@@ -29,10 +29,13 @@ body {
   flex: 1;
   font-size: 14px;
   color: white;
+  display: flex;
+  
 }
 
 .nav-links ul {
   display: inline;
+  
 }
 
 .nav-links ul li::after {
@@ -229,4 +232,22 @@ a{
 
   font-weight: bold;
 
+}
+
+.nav-links ul {
+   margin-left: 50px;
+  padding: 8px 25px;
+  display: flex;
+  list-style: none;
+}
+.nav-links ul li {
+  padding: 8px 25px;
+  position: relative;
+}
+
+.btn {
+  padding: 10px 50px;
+  border-radius:  4px;
+  box-sizing: border-box;
+  font-weight: bold;
 }

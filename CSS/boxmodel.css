@@ -1,0 +1,14 @@
+div {
+  border: rgb(250, 0, 0) solid 3px;
+  padding: 40px ;
+  margin: 50px; 
+  width: 220px ;
+  height: 125px;
+}
+ h1 {
+            background-color: #dde0e3;
+            border: 20px ;
+            padding: 50px ;
+            border-radius: 10px ;
+          
+        }
