@@ -1,0 +1,51 @@
+.clothing
+{
+    float:left;
+    width: 350px;
+    height: 500px;
+    margin: 70px auto;
+    margin-left:200px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    box-shadow: 8px 8px 8px -5px rgba(0,0,0,.3);
+    transform: skew(10deg);
+}
+.cart
+{
+    float:left;
+    width:350px;
+    height: 500px;
+    margin: 70px auto 200px;
+    margin-left:200px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    box-shadow: 8px 8px 8px -5px rgba(0,0,0,.3);
+
+    transform: skew(10deg);
+}
+.button
+{
+	border-radius:5px;
+	box-shadow:0 0 2px rgba(0,0,0,0.5);
+}
+h2 {
+    text-align: center;
+}
+
+.img1:hover {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    transform: scale(1.2);
+    
+}
+.button:hover {
+
+    transform: skew(-10deg);
+    background-color: rgb(60, 148, 60);
+    color: white;
+}
+
